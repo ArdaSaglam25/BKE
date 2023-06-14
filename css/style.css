@@ -1,0 +1,65 @@
+* {
+    background-color: rgb(48, 111, 153);
+}
+
+
+
+
+.wrapper {
+    background-image: url(/img/foto.strand.jpg);
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: repeat(5, 180px);
+    margin: auto;
+
+    gap: 10px;
+    width: 800px;
+}
+
+
+
+.box {
+    background-color: orange;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
+
+
+.div2 {
+    grid-column: 4;
+    grid-row: 1/4;
+    background-color: orange;
+    border-radius: 10px;
+    border: 2px solid gray;
+
+}
+
+
+.button {
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 2px solid orange;
+
+}
+
+.restart {
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+}
